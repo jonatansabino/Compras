@@ -21,7 +21,7 @@
   
   <ion-list>
     <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
-    <ion-button expand="block">Concluir Lista</ion-button>
+    <ion-button expand="block" (click)="Concluir()"> Concluir Lista</ion-button>
 
   </ion-list>
 </ion-content>
